@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: greenting-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+greeting-service:
+  greeting: "Hola"
+  default-value: "Mundo"
+
